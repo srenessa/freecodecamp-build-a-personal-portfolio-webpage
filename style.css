@@ -67,8 +67,12 @@ li:hover {
     margin-top: 100px;
     margin-bottom: 50px;
 }
-
 */
-
+.img-secao-um{
+    position:absolute;
+	left:65%;
+	top:25%;
+	
+}
 
 #projects {}
