@@ -14,7 +14,7 @@
     background-color: var(--cor1);
     color: white;
     z-index: 10;
-    
+
 }
 
 .navlink {
@@ -50,7 +50,8 @@ li:hover {
     width: 100%;
     height: 100vh;
     background-color: white;
-    background-image: ;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
 }
 
 #welcome-section h1 {
@@ -64,18 +65,25 @@ li:hover {
 #welcome-section p {
     color: #572ab0;
     font-size: 30px;
-    font-family:  'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin-left: 30px;
     margin-top: -20px;
 }
 
-.img-secao-um{
-    position:absolute;
-	left:60%;
-	top:20%;
-	
+.img-secao-um {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+
 }
 
 #projects {
     background-color: black;
+}
+
+#projects h2 {
+    text-align: center;
+    color: #572ab0;
+    font-size: 40px;
+    padding-top: 50px;
 }
