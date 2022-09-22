@@ -79,11 +79,22 @@ li:hover {
 
 #projects {
     background-color: black;
+    padding: 10rem 2rem;
+
 }
 
 #projects h2 {
-    text-align: center;
-    color: #572ab0;
-    font-size: 50px;
-    padding-top: 50px;
+    color: var(--cor2);
+    font-size: 49px;
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--cor2);
 }
+
+@media (max-width: 28.75em) {
+    .projects-section-header {
+        font-size: 4rem;
+    }
+}
+
+#projects div {}
