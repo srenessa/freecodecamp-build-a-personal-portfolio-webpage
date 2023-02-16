@@ -47,20 +47,46 @@ li:hover {
 }
 
 #welcome-section h1 {
+    border-right: 2px solid var(--cor3);
     font-family:  'Special Elite', cursive;
     color: var(--cor3);
     font-size: 50px;
     margin-top: 250px;
     margin-left: 30px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
+.typing.animation {
+    animation: blinkCursor 500ms steps(50) infinite normal, typing 4s steps(50) 1s normal ;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to { 
+        width: 18em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: #455a64;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
 
 #welcome-section p {
     color: var(--cor2);
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
     margin-left: 30px;
-    margin-top: -20px;
+    margin-top: -40px;
 }
 
 #img-um {
@@ -78,7 +104,7 @@ li:hover {
 
 #projects {
     background-color: white;
-    padding: 10rem 2rem;
+    padding: 3rem 1.5rem;
 }
 
 
@@ -86,7 +112,7 @@ li:hover {
     color: var(--cor3) ;
     font-size: 49px;
     max-width: 640px;
-    margin: 0 auto 6rem auto;
+    margin: 0 auto 5rem auto;
     border-bottom: 0.2rem solid var(--cor3);
 }
 
@@ -105,7 +131,7 @@ li:hover {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -138,21 +164,56 @@ li:hover {
 .descricao{
     font-size: 20px;
     text-align: center;
+    padding: 10px;
 }
 
 .div-retangulo {
     background: var(--cor2);
-    width: 400px;
-    height: 50px;
+    width: 380px;
+    height: 40px;
     color: #f8f8ff;
+    
+
 }
 
 .div-retangulo:hover {
     background-image: linear-gradient(to right, #e483f9, #8f05ac,#652bb3);
-    color: black;
+    color: rgb(168, 168, 168);
+}
+
+#secao-tres{
+    text-align: center;
+    line-height: 20px;
+}
+#secao-tres h2{
+font-size: 4em;
+}
+#secao-tres p{
+    font-size: 1.6em;
+    margin-top:-10px;
+}
+
+#footer{
+    width: 100%;
+    height: 50px;    
+    border-top: 0.2rem solid var(--cor3);
+    background-color: var(--cor2);
 }
 
 /*
-#contact{
+.linha-footer{
+    color: #652bb3;
+    background: var(--cor2);
+    width: 100%;
+    height: 2px;
+}*/
+
+/*
+#link-contact a{
     align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
+
+
+
