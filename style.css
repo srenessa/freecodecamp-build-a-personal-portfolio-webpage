@@ -165,13 +165,13 @@ li:hover {
     font-size: 20px;
     text-align: center;
     padding: 10px;
+    color: white;
 }
 
 .div-retangulo {
     background: var(--cor2);
     width: 380px;
     height: 40px;
-    color: #f8f8ff;
 }
 
 .div-retangulo:hover {
