@@ -154,7 +154,7 @@ li:hover {
     color: #7ef51e;
 }
 
-
+/*resolver problema referente a imagem*/
 .project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
