@@ -161,6 +161,7 @@ li:hover {
     object-fit: cover;
 }
 
+/* subir a descricao para proximo da div img*/
 .descricao{
     font-size: 20px;
     text-align: center;
