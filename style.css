@@ -159,9 +159,9 @@ li:hover {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
+    margin-bottom: -22px;
 }
 
-/* subir a descricao para proximo da div img*/
 .descricao{
     font-size: 20px;
     text-align: center;
