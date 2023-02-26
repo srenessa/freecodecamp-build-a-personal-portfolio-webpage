@@ -200,6 +200,10 @@ font-size: 4em;
     background-color: var(--cor2);
 }
 
+.cont{
+margin: 0 auto;
+    
+}
 /*
 .linha-footer{
     color: #652bb3;
@@ -208,8 +212,3 @@ font-size: 4em;
     height: 2px;
 }
 
-#link-contact a{
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-}
