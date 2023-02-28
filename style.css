@@ -212,10 +212,12 @@ li:hover {
     color: black;
 }
 
+/*corrigir */
 .container-link a:hover {
     color: var(--cor2);
 }
 
+/*corrigir */
 .container-link a:visited{
     color: black;
 }
