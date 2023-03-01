@@ -194,12 +194,15 @@ li:hover {
     margin-top: -10px;
 }
 
-/* finalizar rodapé*/
 #footer {
+    position: absolute;  
+    text-align: center;
     width: 100%;
-    height: 50px;
+    height: 60px;
     border-top: 0.2rem solid var(--cor3);
     background-color: var(--cor2);
+    line-height: 20px;
+    margin-top: 0;
 }
 
 .container-link {
