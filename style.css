@@ -186,12 +186,13 @@ li:hover {
 }
 
 #secao-tres h2 {
-    font-size: 4em;
+    font-size: 5em;
 }
 
 #secao-tres p {
-    font-size: 1.6em;
+    font-size: 2em;
     margin-top: -10px;
+    font-style: italic;
 }
 
 footer p {
