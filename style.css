@@ -110,7 +110,7 @@ li:hover {
 
 #projects h2 {
     color: var(--cor3);
-    font-size: 49px;
+    font-size: 43px;
     max-width: 640px;
     margin: 0 auto 5rem auto;
     border-bottom: 0.2rem solid var(--cor3);
