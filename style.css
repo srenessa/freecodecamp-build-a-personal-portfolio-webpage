@@ -194,6 +194,23 @@ li:hover {
     margin-top: -10px;
 }
 
+
+footer p {
+    color: inherit;
+    margin: 0;
+    text-transform: lowercase;
+    background-color: var(--cor2);
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1rem 4vw;
+    border-top: 0.2rem solid var(--cor1);
+}
+
+
+/*
 #footer {
     position: absolute;  
     text-align: center;
@@ -204,7 +221,7 @@ li:hover {
     line-height: 20px;
     margin-top: 0;
 }
-
+*/
 .container-link {
     display: flex;
     justify-content: center;
