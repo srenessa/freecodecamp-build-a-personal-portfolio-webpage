@@ -240,12 +240,15 @@ footer::before{
     gap: 25px;
 }
 
-/*corrigir */
-.container-link a:hover {
-    color: var(--cor2);
+.container-link a{
+color: black;
 }
 
-/*corrigir */
-.container-link a:visited{
-    color: black;
+.container-link a:hover{
+    color: #8f05ac;
 }
+
+.container-link a:visited:hover{
+    color: #8f05ac;
+}
+
