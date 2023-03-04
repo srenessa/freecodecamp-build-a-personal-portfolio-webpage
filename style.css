@@ -57,30 +57,6 @@ li:hover {
     overflow: hidden;
 }
 
-.typing.animation {
-    animation: blinkCursor 500ms steps(50) infinite normal, typing 4s steps(50) 1s normal;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 18em;
-    }
-}
-
-@keyframes blinkCursor {
-    from {
-        border-right-color: #455a64;
-    }
-
-    to {
-        border-right-color: transparent;
-    }
-}
-
 #welcome-section p {
     color: var(--cor2);
     font-size: 30px;
@@ -95,6 +71,11 @@ li:hover {
     top: 15%;
     height: auto;
 }
+
+#img-um img{
+    width: 420px;
+}
+
 
 #img-dois {
     position: relative;
@@ -116,13 +97,11 @@ li:hover {
     border-bottom: 0.2rem solid black;
 }
 
-
 @media (max-width: 28.75em) {
     .projects-section-header {
         font-size: 4rem;
     }
 }
-
 
 .projects-grid {
     display: grid;
@@ -150,12 +129,16 @@ li:hover {
     transition: color 0.3s ease-out;
 }
 
-.project-image {
-    height: calc(100% - 6.8rem);
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: -22px;
+.project-image{
+    width: 380px;
+    padding: 20px;
+
 }
+
+.project-image img {
+    width: 100%;
+}
+
 
 .descricao {
     font-size: 20px;
@@ -164,13 +147,13 @@ li:hover {
     color: white;
 }
 
-.descricao:hover{
+.descricao:hover {
     color: rgb(216, 215, 215);
 }
 
-.div-retangulo {
+.project-image .div-retangulo {
     background: var(--cor2);
-    width: 380px;
+    width: 100%;
     height: 40px;
 }
 
@@ -208,7 +191,7 @@ footer p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-footer::before{
+footer::before {
     content: '';
     width: 100%;
     display: block;
@@ -218,6 +201,7 @@ footer::before{
     margin-top: -5px;
     margin-bottom: 30px;
 }
+
 /*
 #footer {
     position: absolute;  
@@ -240,15 +224,14 @@ footer::before{
     word-spacing: 10px;
 }
 
-.container-link a{
-color: black;
+.container-link a {
+    color: black;
 }
 
-.container-link a:hover{
+.container-link a:hover {
     color: #8f05ac;
 }
 
-.container-link a:visited:hover{
+.container-link a:visited:hover {
     color: #8f05ac;
 }
-
