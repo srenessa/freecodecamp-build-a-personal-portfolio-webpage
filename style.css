@@ -109,11 +109,11 @@ li:hover {
 
 
 #projects h2 {
-    color: var(--cor3);
+    color: black;
     font-size: 43px;
     max-width: 640px;
     margin: 0 auto 5rem auto;
-    border-bottom: 0.2rem solid var(--cor3);
+    border-bottom: 0.2rem solid black;
 }
 
 
@@ -150,11 +150,6 @@ li:hover {
     transition: color 0.3s ease-out;
 }
 
-.project:hover .code {
-    color: #7ef51e;
-}
-
-
 .project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
@@ -169,6 +164,10 @@ li:hover {
     color: white;
 }
 
+.descricao:hover{
+    color: rgb(216, 215, 215);
+}
+
 .div-retangulo {
     background: var(--cor2);
     width: 380px;
@@ -177,7 +176,6 @@ li:hover {
 
 .div-retangulo:hover {
     background-image: linear-gradient(to right, #e483f9, #8f05ac, #652bb3);
-    color: rgb(168, 168, 168);
 }
 
 #secao-tres {
@@ -206,6 +204,8 @@ footer p {
     justify-content: space-between;
     margin: 0;
     padding: 0.5rem 2vw;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 footer::before{
