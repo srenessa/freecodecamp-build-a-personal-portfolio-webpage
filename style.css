@@ -167,7 +167,6 @@ li:hover {
 
 #secao-tres {
     text-align: center;
-    line-height: 20px;
 }
 
 #secao-tres h2 {
@@ -176,7 +175,6 @@ li:hover {
 
 #secao-tres p {
     font-size: 2em;
-    margin-top: -10px;
     font-style: italic;
 }
 
@@ -228,10 +226,6 @@ color: black;
     color: #8f05ac;
 }
 
-
-
-
-
 /* ========================================================== */
 
 @media (max-width: 30.625em) {
@@ -243,7 +237,6 @@ color: black;
         grid-template-columns: 1fr;
     }
 }
-
 
 @media (max-width: 360px) {
     .projects-section-header {
