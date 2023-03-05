@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root {
     --cor1: #e483f9;
     --cor2: #8f05ac;
     --cor3: #455a64;
 }
+
+/* ========================================================== */
 
 .nav {
     display: flex;
@@ -37,6 +46,8 @@ li:hover {
     color: black;
 }
 
+/* ========================================================== */
+
 #welcome-section {
     display: flex;
     flex-direction: column;
@@ -46,39 +57,48 @@ li:hover {
     background-repeat: no-repeat;
 }
 
-#welcome-section h1 {
+.meuNome{
+    width: 50%;
+    padding: 50px;
+}
+
+.meuNome h1 {
     border-right: 2px solid var(--cor3);
     font-family: 'Special Elite', cursive;
     color: var(--cor3);
     font-size: 50px;
-    margin-top: 250px;
-    margin-left: 30px;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
-#welcome-section p {
+
+.meuNome p {
     color: var(--cor2);
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
-    margin-left: 30px;
-    margin-top: -40px;
+
 }
+
+.coluna{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 
 #img-um {
-    position: absolute;
-    left: 60%;
-    top: 15%;
+    width: 50%;
     height: auto;
+    z-index: 1; 
+    padding-left: 130px;
 }
 
-#img-um img{
-    width: 420px;
+#img-um img {
+    width: 85%;
 }
-
 
 #img-dois {
-    position: relative;
+    position: absolute;
     bottom: 0;
 }
 
@@ -91,17 +111,15 @@ li:hover {
 
 #projects h2 {
     color: black;
-    font-size: 43px;
+    font-size: 40px;
     max-width: 640px;
     margin: 0 auto 5rem auto;
     border-bottom: 0.2rem solid black;
 }
 
-@media (max-width: 28.75em) {
-    .projects-section-header {
-        font-size: 4rem;
-    }
-}
+
+/* ========================================================== */
+
 
 .projects-grid {
     display: grid;
@@ -114,15 +132,7 @@ li:hover {
 }
 
 
-@media (max-width: 30.625em) {
-    .projects-section {
-        padding: 6rem 1rem;
-    }
 
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-}
 
 .code {
     color: #f50e02;
@@ -132,13 +142,12 @@ li:hover {
 .project-image{
     width: 380px;
     padding: 20px;
-
 }
+
 
 .project-image img {
     width: 100%;
 }
-
 
 .descricao {
     font-size: 20px;
@@ -147,11 +156,11 @@ li:hover {
     color: white;
 }
 
-.descricao:hover {
+.descricao:hover{
     color: rgb(216, 215, 215);
 }
 
-.project-image .div-retangulo {
+.div-retangulo {
     background: var(--cor2);
     width: 100%;
     height: 40px;
@@ -191,7 +200,7 @@ footer p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-footer::before {
+footer::before{
     content: '';
     width: 100%;
     display: block;
@@ -201,7 +210,6 @@ footer::before {
     margin-top: -5px;
     margin-bottom: 30px;
 }
-
 /*
 #footer {
     position: absolute;  
@@ -224,14 +232,52 @@ footer::before {
     word-spacing: 10px;
 }
 
-.container-link a {
-    color: black;
+.container-link a{
+color: black;
 }
 
-.container-link a:hover {
+.container-link a:hover{
     color: #8f05ac;
 }
 
-.container-link a:visited:hover {
+.container-link a:visited:hover{
     color: #8f05ac;
+}
+
+
+
+
+
+/* ========================================================== */
+
+@media (max-width: 30.625em) {
+    .projects-section {
+        padding: 6rem 1rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .projects-section-header {
+        font-size: 4rem;
+    }
+    #projects h2 {
+        font-size: 20px;
+    }
+
+    #img-um{
+        display: none;
+    }
+
+    #secao-tres h2{
+        font-size: 20px;
+    }
+
+        #projects{
+            display: none;
+        }
 }
