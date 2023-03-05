@@ -178,6 +178,10 @@ li:hover {
     font-style: italic;
 }
 
+#contact{
+    height: 70vh;
+}
+
 footer p {
     color: inherit;
     margin: 0;
