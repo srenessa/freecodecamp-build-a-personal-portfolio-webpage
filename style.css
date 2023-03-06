@@ -63,18 +63,44 @@ li:hover {
 }
 
 .meuNome h1 {
+    border-right: 2px solid var(--cor3); /*traço do lado do nome*/
     font-family: 'Special Elite', cursive;
     color: var(--cor3);
     font-size: 50px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
+.typing-animation{
+    animation: cursor 500ms steps(40) infinite normal, 
+    typing 4s steps(40) 1s normal both;
+}
+@keyframes typing{
+    from {
+        width: 0;
+    }
+    to{
+        width: 13.5em;
+    }
+}
+
+
+@keyframes cursor {
+    from {
+        border-right-color: #455a64;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
 
 .meuNome p {
     color: var(--cor2);
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
-
 }
+
 
 .coluna {
     height: 100vh;
@@ -267,12 +293,12 @@ footer::before {
 @media (max-width: 375px) {
     #secao-tres h2 {
         font-size: 35px;
-        margin-top: 200px ;
+        margin-top: 200px;
     }
 
     #secao-tres p {
         font-size: 22px;
-        
+
     }
 
     .container-link {
