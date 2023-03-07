@@ -308,4 +308,19 @@ footer::before {
         font-size: 0.9375rem;
         margin-top: 18.75rem;
     }
+    #img-um img{
+        width: 0%;
+    }
+    .meuNome h1{
+        font-size: 40px;
+        white-space: normal;
+    }
+    #projects h2 {
+        border-bottom:none;
+        font-size: 2.1875rem;
+        text-align: center;
+        line-height: 30px;
+        color: var(--cor3);
+
+    }
 }
