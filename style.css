@@ -142,10 +142,11 @@ li:hover {
 #projects h2 {
     color: black;
     font-size: 2.5rem;
-    max-width: 41.875rem;
+    max-width: 600px;
     margin: 0 auto 5rem auto;
-    border-bottom: 0.2rem solid black;
+    border-bottom: 2px solid black;
 }
+
 
 
 /* ========================================================== */
@@ -336,6 +337,33 @@ footer::before {
     .container-link {
         width: 25%;
         margin: 0 auto;
+        margin-top: 120px;
     }
 
+    .container-link i{
+        color: var(--cor2);
+        width: none;
+    }
+
+    .links-contatos{
+        border-radius: 7px ;
+        border: 1px solid black;
+        box-shadow: 5px 4px 3px var(--cor2);
+        width: 130%;
+        height: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 5px;
+    }
+
+    /*
+    .container-link a{
+        display: block;
+        height: 20px;
+        border-radius: 5px;
+        background-color: #652bb3;
+        line-height: 50px;
+
+    }
+*/
 }
