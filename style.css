@@ -63,7 +63,8 @@ li:hover {
 }
 
 .meuNome h1 {
-    border-right: 0.125rem solid var(--cor3); /*traço do lado do nome*/
+    border-right: 0.125rem solid var(--cor3);
+    /*traço do lado do nome*/
     font-family: 'Special Elite', cursive;
     color: var(--cor3);
     font-size: 3.125rem;
@@ -73,15 +74,17 @@ li:hover {
 
 /* ========================================================== */
 
-.typing-animation{
-    animation: cursor 500ms steps(40) infinite normal, 
-    typing 4s steps(40) 1s normal both;
+.typing-animation {
+    animation: cursor 500ms steps(40) infinite normal,
+        typing 4s steps(40) 1s normal both;
 }
-@keyframes typing{
+
+@keyframes typing {
     from {
         width: 0;
     }
-    to{
+
+    to {
         width: 13.5em;
     }
 }
@@ -308,19 +311,31 @@ footer::before {
         font-size: 0.9375rem;
         margin-top: 18.75rem;
     }
-    #img-um img{
+
+    #img-um img {
         width: 0%;
     }
-    .meuNome h1{
+
+    .meuNome h1 {
         font-size: 40px;
         white-space: normal;
     }
+
     #projects h2 {
-        border-bottom:none;
+        border-bottom: none;
         font-size: 2.1875rem;
         text-align: center;
         line-height: 30px;
         color: var(--cor3);
-
     }
+
+    footer p {
+        padding-left: 30px;
+    }
+
+    .container-link {
+        width: 25%;
+        margin: 0 auto;
+    }
+
 }
