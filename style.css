@@ -40,6 +40,8 @@ li {
     color: var(--cor1);
     font-size: 1.5625rem;
     padding: 0.625rem;
+    letter-spacing: -1px;
+    word-spacing: 5px;
 }
 
 li:hover {
@@ -73,7 +75,7 @@ li:hover {
     white-space: nowrap;
     overflow: hidden;
     letter-spacing: .5rem;
-    word-spacing:5px;
+    word-spacing: 5px;
 }
 
 .meuNome p {
@@ -82,6 +84,7 @@ li:hover {
     font-family: 'Inter', sans-serif;
     letter-spacing: -2px;
 }
+
 
 .coluna {
     height: 100vh;
@@ -198,7 +201,7 @@ footer p {
     justify-content: space-between;
     margin: 0;
     padding: 0.5rem 2vw;
-    color: black;
+    color: var(--cor1);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -291,7 +294,7 @@ footer::before {
     }
 
     .meuNome h1 {
-    font-size: 59px;
+        font-size: 59px;
     }
 
     .meuNome p {
@@ -332,13 +335,13 @@ footer::before {
         margin-top: 120px;
     }
 
-    .container-link i{
+    .container-link i {
         color: var(--cor2);
         width: none;
     }
 
-    .links-contatos{
-        border-radius: 7px ;
+    .links-contatos {
+        border-radius: 7px;
         border: 1px solid black;
         box-shadow: 5px 4px 3px var(--cor2);
         width: 220px;
