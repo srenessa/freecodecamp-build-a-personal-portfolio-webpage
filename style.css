@@ -276,7 +276,11 @@ footer::before {
 
 
 @media (max-width: 23.4375rem) {
-
+    /*
+    body {
+        text-align: center;
+    }
+*/
     #secao-tres h2 {
         font-size: 2.1875rem;
         margin-top: 12.5rem;
@@ -304,7 +308,7 @@ footer::before {
         font-size: 3.0rem;
         font-weight: 600;
         overflow-wrap: break-word;
-        padding: 20px;
+        line-height: 45px;
     }
 
     .meuNome p {
