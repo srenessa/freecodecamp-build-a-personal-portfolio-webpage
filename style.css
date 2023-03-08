@@ -249,9 +249,9 @@ footer::before {
 
 /* ========================================================== */
 
-@media (max-width: 30.625em) {
+@media (max-width: 490px) {
     .projects-section {
-        padding: 6rem 1rem;
+        padding: 96px 16px;
     }
 
     .projects-grid {
@@ -259,30 +259,8 @@ footer::before {
     }
 }
 
-@media (max-width: 1.25rem) {
-    .projects-section-header {
-        font-size: 4rem;
-    }
 
-    #projects h2 {
-        font-size: 1.25rem;
-    }
-
-    #img-um {
-        display: none;
-    }
-
-    #secao-tres h2 {
-        font-size: 1.5625rem;
-    }
-
-    #projects {
-        display: none;
-    }
-}
-
-
-@media (max-width: 23.4375rem) {
+@media (max-width: 375px) {
 
     /*
     body {
@@ -294,18 +272,18 @@ footer::before {
     }
 
     #secao-tres h2 {
-        font-size: 2.1875rem;
-        margin-top: 12.5rem;
+        font-size: 35px;
+        margin-top: 200px;
     }
 
     #secao-tres p {
-        font-size: 1.375rem;
+        font-size: 22px;
 
     }
 
     .container-link {
-        font-size: 0.9375rem;
-        margin-top: 18.75rem;
+        font-size: 15px;
+        margin-top: 300px;
     }
 
     #img-um img {
@@ -317,7 +295,7 @@ footer::before {
     }
 
     .meuNome h1 {
-        font-size: 3.0rem;
+        font-size: 48px;
         font-weight: 600;
         overflow-wrap: break-word;
         line-height: 45px;
@@ -325,7 +303,7 @@ footer::before {
     }
 
     .meuNome p {
-        font-size: 1.2rem;
+        font-size:19.2px;
         white-space: nowrap;
         color: black;
         font-weight: 600;
@@ -340,7 +318,7 @@ footer::before {
 
     #projects h2 {
         border-bottom: none;
-        font-size: 2.1875rem;
+        font-size: 35px;
         text-align: center;
         line-height: 30px;
         color: var(--cor3);
