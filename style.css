@@ -76,35 +76,6 @@ li:hover {
     word-spacing:5px;
 }
 
-/* ========================================================== */
-
-.typing-animation {
-    animation: cursor 500ms steps(40) infinite normal,
-        typing 4s steps(40) 1s normal both;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 14.2em;
-    }
-}
-
-@keyframes cursor {
-    from {
-        border-right-color: var(--cor2);
-    }
-
-    to {
-        border-right-color: transparent;
-    }
-}
-
-/* ========================================================== */
-
 .meuNome p {
     color: var(--cor3);
     font-size: 1.7rem;
@@ -112,13 +83,11 @@ li:hover {
     letter-spacing: -2px;
 }
 
-
 .coluna {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #img-um {
@@ -137,12 +106,12 @@ li:hover {
     bottom: 0;
 }
 
+/* ========================================================== */
 
 #projects {
     background-color: white;
     padding: 3rem 1.5rem;
 }
-
 
 #projects h2 {
     color: black;
@@ -151,11 +120,6 @@ li:hover {
     margin: 0 auto 5rem auto;
     border-bottom: 2px solid black;
 }
-
-
-
-/* ========================================================== */
-
 
 .projects-grid {
     display: grid;
@@ -201,6 +165,10 @@ li:hover {
 .div-retangulo:hover {
     background-image: linear-gradient(to right, #e483f9, #8f05ac, #652bb3);
 }
+
+
+/* ========================================================== */
+
 
 #secao-tres {
     text-align: center;
@@ -379,6 +347,31 @@ footer::before {
         margin-bottom: 20px;
         padding-top: 5px;
     }
+}
 
+/* ========================================================== */
 
+.typing-animation {
+    animation: cursor 500ms steps(40) infinite normal,
+        typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 14.2em;
+    }
+}
+
+@keyframes cursor {
+    from {
+        border-right-color: var(--cor2);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
