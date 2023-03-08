@@ -23,6 +23,7 @@
     box-shadow: 0 2px 0 var(--cor2);
     z-index: 10;
     background-color: white;
+    font-family: 'Inter', sans-serif;
 }
 
 .navlink {
@@ -60,16 +61,19 @@ li:hover {
 .meuNome {
     width: 55%;
     padding-left: 3.125rem;
+    line-height: 60px;
 }
 
 .meuNome h1 {
     border-right: 0.125rem solid var(--cor3);
     /*traço do lado do nome*/
-    font-family: 'Special Elite', cursive;
-    color: var(--cor3);
-    font-size: 3.125rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--cor2);
+    font-size: 3.6rem;
     white-space: nowrap;
     overflow: hidden;
+    letter-spacing: .5rem;
+    word-spacing:5px;
 }
 
 /* ========================================================== */
@@ -85,13 +89,13 @@ li:hover {
     }
 
     to {
-        width: 13.5em;
+        width: 14.2em;
     }
 }
 
 @keyframes cursor {
     from {
-        border-right-color: #455a64;
+        border-right-color: var(--cor2);
     }
 
     to {
@@ -102,9 +106,10 @@ li:hover {
 /* ========================================================== */
 
 .meuNome p {
-    color: var(--cor2);
-    font-size: 1.875rem;
-    font-family: 'Work Sans', sans-serif;
+    color: var(--cor3);
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -2px;
 }
 
 
