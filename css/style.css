@@ -13,8 +13,9 @@ body, html{
     --cor2: #8f05ac;
     --cor3: #455a64;
     
+/*
     font-size: 62.5%;
-    /* 10px  --- 1rem */
+     10px  --- 1rem */
 }
 
 /* ========================================================== */
@@ -23,13 +24,11 @@ body, html{
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    box-shadow: 0 2px 0 var(--cor2);
     z-index: 10;
     background-color: white;
     font-family: 'Inter', sans-serif;
+    border-bottom: 2px solid var(--cor2);
 }
 
 .navlink {
