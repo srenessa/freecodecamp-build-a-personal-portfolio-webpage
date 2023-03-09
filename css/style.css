@@ -76,11 +76,8 @@ li:hover {
     color: var(--cor2);
     font-size: 3.6rem;
     white-space: nowrap;
-    overflow: hidden;
     letter-spacing: .5rem;
     word-spacing: 5px;
-    white-space: nowrap;
-
 }
 
 .meuNome p {
