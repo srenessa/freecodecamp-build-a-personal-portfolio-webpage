@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-body, html{
+body,
+html {
     width: 100%;
 }
 
@@ -68,22 +69,23 @@ li:hover {
 .meuNome {
     width: 55%;
     padding-left: 3.125rem;
-    line-height: 6.0rem;
+    line-height: 6rem;
 }
 
 .meuNome h1 {
     font-family: 'Inter', sans-serif;
     color: var(--cor2);
-    font-size: 6.6rem;
+    font-size: 7rem;
     white-space: nowrap;
     letter-spacing: .8rem;
-    word-spacing: 0.5rem;
-    line-height: 6.0rem;
+    word-spacing: .5rem;
+    line-height: 6rem;
+    font-weight: 400;
 }
 
 .meuNome p {
     color: var(--cor3);
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-family: 'Inter', sans-serif;
     letter-spacing: -2px;
 }
@@ -100,7 +102,7 @@ li:hover {
     width: 45%;
     height: auto;
     z-index: 1;
-    padding-left: 8.125rem;
+    padding-left: 8.2rem;
 }
 
 #img-um img {
@@ -115,8 +117,8 @@ li:hover {
 /* ========================================================== */
 
 #projects {
-    background-color: white;
     padding: 3rem 1.5rem;
+    width: 100%;
 }
 
 #projects h2 {
@@ -138,7 +140,7 @@ li:hover {
     width: 100%;
     max-width: 70rem;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
 }
 
 .code {
@@ -147,7 +149,7 @@ li:hover {
 }
 
 .project-image {
-    width: 23.75rem;
+    width: 100%;
     padding: 1.25rem;
 }
 
