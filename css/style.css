@@ -150,6 +150,7 @@ li:hover {
 
 .project-image {
     width: 100%;
+    margin: auto;
     padding: 1.25rem;
 }
 
@@ -189,26 +190,25 @@ li:hover {
 }
 
 #secao-tres h2 {
-    font-size: 5em;
+    font-size: 7rem;
 }
 
 #secao-tres p {
-    font-size: 2em;
+    font-size: 3rem;
     font-style: italic;
 }
 
 #contact {
-    height: 70vh;
+    height: 60vh;
 }
 
 footer p {
-    color: inherit;
     margin: 0;
     text-transform: lowercase;
     background-color: var(--cor2);
     display: flex;
     flex-direction: column;
-    font-size: 0.9375rem;
+    font-size: 1.5rem;
     justify-content: space-between;
     margin: 0;
     padding: 0.5rem 2vw;
@@ -220,22 +220,35 @@ footer::before {
     content: '';
     width: 100%;
     display: block;
-    height: 0.125rem;
+    height: 0.2rem;
     margin: 6.25rem auto 0 auto;
     background-color: var(--cor2);
-    margin-top: -0.3125rem;
-    margin-bottom: 1.875rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 .container-link {
     display: flex;
+    white-space: nowrap;
     justify-content: center;
-    margin-bottom: 6.25rem;
-    margin-top: 6.25rem;
-    font-size: 1.20rem;
+    margin-top: 18rem;
+    font-size: 1.7rem;
     color: black;
     word-spacing: 0.625rem;
     font-family: 'Inter', sans-serif;
+}
+
+.links-contatos {
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #d313fa, #8f05ac, #652bb3) border-box;
+    display: inline-flex;
+    border-radius: 50rem;
+    border: 2px solid transparent;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
 }
 
 .container-link a {
@@ -244,6 +257,7 @@ footer::before {
 
 .container-link a:hover {
     color: #8f05ac;
+
 }
 
 .container-link a:visited:hover {
