@@ -1,4 +1,3 @@
-
 @media (max-width: 490px) {
     .projects-section {
         padding: 96px 16px;
@@ -10,7 +9,7 @@
 }
 
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
 
     /*
     body {
@@ -42,7 +41,7 @@
     }
 
     #img-um img {
-        width: 0%;
+        display: none;
     }
 
     .meuNome {
@@ -68,7 +67,7 @@
 
 
     #img-dois {
-        width: 0%;
+        display: none;
     }
 
     #projects h2 {
