@@ -72,8 +72,6 @@ li:hover {
 }
 
 .meuNome h1 {
-    border-right: 0.125rem solid var(--cor3);
-    /*traço do lado do nome*/
     font-family: 'Inter', sans-serif;
     color: var(--cor2);
     font-size: 3.6rem;
