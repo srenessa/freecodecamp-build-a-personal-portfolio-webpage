@@ -13,9 +13,9 @@ body, html{
     --cor2: #8f05ac;
     --cor3: #455a64;
 
-/*
+
     font-size: 62.5%;
-     10px  --- 1rem */
+    /*10px  --- 1rem */
 }
 
 /* ========================================================== */
@@ -43,7 +43,7 @@ a {
 li {
     list-style: none;
     color: var(--cor1);
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
     padding: 0.625rem;
     letter-spacing: -1px;
     word-spacing: 5px;
