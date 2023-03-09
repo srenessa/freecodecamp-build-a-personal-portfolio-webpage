@@ -68,21 +68,22 @@ li:hover {
 .meuNome {
     width: 55%;
     padding-left: 3.125rem;
-    line-height: 60px;
+    line-height: 6.0rem;
 }
 
 .meuNome h1 {
     font-family: 'Inter', sans-serif;
     color: var(--cor2);
-    font-size: 3.6rem;
+    font-size: 6.6rem;
     white-space: nowrap;
-    letter-spacing: .5rem;
-    word-spacing: 5px;
+    letter-spacing: .8rem;
+    word-spacing: 0.5rem;
+    line-height: 6.0rem;
 }
 
 .meuNome p {
     color: var(--cor3);
-    font-size: 1.7rem;
+    font-size: 2.7rem;
     font-family: 'Inter', sans-serif;
     letter-spacing: -2px;
 }
@@ -120,7 +121,7 @@ li:hover {
 
 #projects h2 {
     color: black;
-    font-size: 2.1rem;
+    font-size: 3.4rem;
     max-width: 700px;
     margin: 0 auto 5rem auto;
     border-bottom: 2px solid black;
@@ -135,7 +136,7 @@ li:hover {
     grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
     grid-gap: 4rem;
     width: 100%;
-    max-width: 80rem;
+    max-width: 70rem;
     margin: 0 auto;
     margin-bottom: 2rem;
 }
