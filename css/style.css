@@ -256,12 +256,8 @@ footer::before {
 }
 
 .container-link a:hover {
-    color: #8f05ac;
-
-}
-
-.container-link a:visited:hover {
-    color: #8f05ac;
+    
+color:  var(--cor1);
 }
 
 /* ========================================================== */
