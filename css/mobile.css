@@ -12,7 +12,6 @@
         color: var(--cor2);
     }
 
-
     #img-um {
         display: none;
     }
@@ -37,8 +36,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-
     }
 
     .meuNome h1 {
@@ -46,7 +43,6 @@
         overflow-wrap: break-word;
         line-height: 7rem;
         text-align: center;
-
     }
 
     .meuNome p {
@@ -68,7 +64,6 @@
 
     #secao-tres p {
         font-size: 2.2rem;
-
     }
 
     .container-link {
@@ -145,8 +140,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-
     }
 
     .meuNome h1 {
@@ -155,7 +148,6 @@
         overflow-wrap: break-word;
         line-height: 7rem;
         text-align: center;
-
     }
 
     .meuNome p {
@@ -168,8 +160,6 @@
     }
 
 
-
-
     /* ================================================= */
 
 
@@ -180,7 +170,6 @@
 
     #secao-tres p {
         font-size: 2.2rem;
-
     }
 
     .container-link {
