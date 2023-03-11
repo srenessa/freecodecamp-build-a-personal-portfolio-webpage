@@ -12,8 +12,6 @@
         color: var(--cor2);
     }
 
-
-
     #img-um {
         display: none;
     }
@@ -38,17 +36,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-
     }
 
     .meuNome h1 {
-        font-size: 68px;
+    
         font-weight: 600;
         overflow-wrap: break-word;
-        line-height: 7rem;
+        line-height: 112px;
         text-align: center;
-
     }
 
     .meuNome p {
@@ -59,8 +54,6 @@
         letter-spacing: -1px;
         display: flex;
     }
-
-
 
 
     /* ================================================= */
