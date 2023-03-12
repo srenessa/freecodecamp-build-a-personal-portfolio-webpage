@@ -46,7 +46,7 @@
         width: 100%;
         font-weight: bold;
         font-size: 5rem;
-        overflow-wrap: break-word;
+        line-height: 6rem;
         text-align: center;
     }
 
