@@ -63,23 +63,25 @@
 
 
     #secao-tres h2 {
-        font-size: 56px;
-        margin-top: 200px;
+        font-size: 4rem;
     }
 
     #secao-tres p {
-        font-size: 36px;
+        font-size: 2.2rem;
     }
 
     .container-link {
         font-size: 15px;
-        margin-top: 300px;
     }
 
+    .cont{
+display: flex;
+flex-direction: column;
+    }
 
     #projects h2 {
         border-bottom: none;
-        font-size: 20px;
+        font-size: 35px;
         text-align: center;
         line-height: 30px;
         color: var(--cor3);
