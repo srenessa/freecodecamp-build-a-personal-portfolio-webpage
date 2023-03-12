@@ -6,7 +6,7 @@
 }
 
 
-@media (min-width: 320px ) and (max-width: 720px){
+@media (min-width: 320px) and (max-width: 720px) {
 
     li {
         color: var(--cor2);
@@ -14,11 +14,6 @@
 
     #img-um {
         display: none;
-    }
-
-    .colum {
-        display: block;
-        width: 100%;
     }
 
     #welcome-section {
@@ -30,8 +25,17 @@
         background-repeat: no-repeat;
     }
 
+    .container-colunas {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: cente;
+        justify-content: start;
+    }
+
     .meuNome {
-        width: 100vh;
+        width: 100%;
+        padding-left: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -39,10 +43,10 @@
     }
 
     .meuNome h1 {
-    
-        font-weight: 600;
+        width: 100%;
+        font-weight: bold;
+        font-size: 5rem;
         overflow-wrap: break-word;
-        line-height: 112px;
         text-align: center;
     }
 
@@ -55,18 +59,16 @@
         display: flex;
     }
 
-
     /* ================================================= */
 
 
     #secao-tres h2 {
-        font-size: 3.5rem;
+        font-size: 56px;
         margin-top: 200px;
     }
 
     #secao-tres p {
-        font-size: 2.2rem;
-
+        font-size: 36px;
     }
 
     .container-link {
@@ -75,10 +77,9 @@
     }
 
 
-
     #projects h2 {
         border-bottom: none;
-        font-size: 35px;
+        font-size: 20px;
         text-align: center;
         line-height: 30px;
         color: var(--cor3);

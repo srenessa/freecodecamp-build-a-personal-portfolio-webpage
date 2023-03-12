@@ -66,10 +66,18 @@ li:hover {
     background-repeat: no-repeat;
 }
 
+.container-colunas {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .meuNome {
-    width: 55%;
-    padding-left: 3.125rem;
+    width: 50%;
     line-height: 6rem;
+    padding-left: 5rem;
 }
 
 .meuNome h1 {
@@ -88,14 +96,6 @@ li:hover {
     font-size: 2.5rem;
     font-family: 'Inter', sans-serif;
     letter-spacing: -2px;
-}
-
-
-.coluna {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #img-um {
