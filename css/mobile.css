@@ -1,14 +1,8 @@
-/*
-@media (min-width: 490px) {
 
+@media (min-width: 320px) and (max-width: 720px) {
     .projects-grid {
         grid-template-columns: 1fr;
     }
-}
-*/
-
-
-@media (min-width: 320px) and (max-width: 720px) {
 
     li {
         color: var(--cor2);
@@ -74,9 +68,9 @@
         font-size: 15px;
     }
 
-    .cont{
-display: flex;
-flex-direction: column;
+    .cont {
+        display: flex;
+        flex-direction: column;
     }
 
     #projects h2 {
@@ -84,7 +78,7 @@ flex-direction: column;
         font-size: 35px;
         text-align: center;
         line-height: 30px;
-        color: var(--cor3);
+        color: black;
     }
 
     footer p {
@@ -106,7 +100,6 @@ flex-direction: column;
         border-radius: 7px;
         border: 1px solid black;
         box-shadow: 5px 4px 3px var(--cor2);
-        width: 220px;
         height: 30px;
         text-align: center;
         margin-bottom: 20px;
