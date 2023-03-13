@@ -327,18 +327,21 @@
         text-align: center;
         line-height: 30px;
         color: black;
+        font-weight: 600;
     }
 
-    .descrição {
-        font-size: 5rem;
+    .div-retangulo p{
+        font-size: 2.5rem;
     }
 
     .div-retangulo {
-        height: 3rem;
+        height: 4rem;
     }
 
     footer p {
         padding-left: 30px;
+        height: 6.5rem;
+        font-size: 2rem;
     }
 
     .container-link {
