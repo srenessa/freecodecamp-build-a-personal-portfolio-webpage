@@ -120,7 +120,7 @@
 }
 
 
-@media (min-width: 464px) and (max-width: 481px){
+@media (min-width: 464px) and (max-width: 481px) {
     .projects-grid {
         grid-template-columns: 1fr;
     }
@@ -259,10 +259,11 @@
         display: none;
     }
 
+
     #welcome-section {
         height: 80vh;
         background-color: white;
-        margin-bottom: 6rem;
+        margin-bottom: 8rem;
     }
 
     .container-colunas {
