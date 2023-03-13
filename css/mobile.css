@@ -11,6 +11,10 @@
         display: none;
     }
 
+    #img-dois {
+        display: none;
+    }
+
     #welcome-section {
         height: 100vh;
         background-color: white;
@@ -81,7 +85,11 @@
     }
 
     .descrição {
-        font-size: 40px;
+        font-size: 5rem;
+    }
+
+    .div-retangulo {
+        height: 3rem;
     }
 
     footer p {
