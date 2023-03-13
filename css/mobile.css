@@ -310,6 +310,7 @@
 
     #secao-tres h2 {
         font-size: 6rem;
+        margin-top: 6rem;
     }
 
     #secao-tres p {
@@ -351,7 +352,7 @@
     .container-link {
         width: 25%;
         margin: 0 auto;
-        margin-top: 120px;
+        margin-top: 200px;
     }
 
     .container-link i {
