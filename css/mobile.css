@@ -246,6 +246,10 @@
         grid-template-columns: 1fr;
     }
 
+    .nav{
+        border-bottom: 3px solid var(--cor2);
+    }
+
     li {
         color: var(--cor2);
         font-size: 3.5rem;
@@ -305,11 +309,11 @@
 
 
     #secao-tres h2 {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 
     #secao-tres p {
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 
     .container-link {
@@ -359,10 +363,11 @@
         border-radius: 7px;
         border: 1px solid black;
         box-shadow: 5px 4px 3px var(--cor2);
-        height: 20px;
+        height:30px;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         padding-top: 5px;
+        font-size: 2rem;
     }
 
 }
