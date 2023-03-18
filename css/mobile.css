@@ -1,20 +1,9 @@
 
 
 @media (max-width: 720px) {
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
 
     li {
         color: var(--cor2);
-    }
-
-    #img-um {
-        display: none;
-    }
-
-    #img-dois {
-        display: none;
     }
 
     #welcome-section {
@@ -22,15 +11,7 @@
         background-color: white;
         margin-bottom: 6rem;
     }
-
-    .container-colunas {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-    }
-
+    
     .meuNome {
         width: 100%;
         padding-left: 0;
@@ -58,7 +39,29 @@
         display: flex;
     }
 
+    #img-um {
+        display: none;
+    }
+
+    #img-dois {
+        display: none;
+    }
+
     /* ================================================= */
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container-colunas {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+
 
 
     #secao-tres h2 {
