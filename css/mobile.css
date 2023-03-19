@@ -1,3 +1,132 @@
+
+@media (min-width: 280) and (max-width: 375px) {
+
+    li {
+        color: var(--cor2);
+        font-size: 17px;
+    }
+
+    .container-colunas {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    #welcome-section {
+        height: 100vh;
+        background-color: white;
+        margin-bottom: 6rem;
+    }
+
+    .meuNome {
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .meuNome h1 {
+        width: 100%;
+        font-weight: bold;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        text-align: center;
+    }
+
+    .meuNome p {
+        font-size: 1.5rem;
+        white-space: nowrap;
+        color: black;
+        font-weight: 600;
+        letter-spacing: -1px;
+        display: flex;
+    }
+
+    #img-um {
+        display: none;
+    }
+
+    #img-dois {
+        display: none;
+    }
+
+    /* ================================================= */
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-image {
+        width: 280px;
+    }
+
+    #projects h2 {
+        border-bottom: none;
+        font-size: 15px;
+        text-align: center;
+        line-height: 15px;
+        color: black;
+    }
+
+    .descrição {
+        font-size: 5rem;
+    }
+
+    .div-retangulo {
+        height: 2.5rem;
+    }
+
+  /* ================================================= */
+
+    #secao-tres h2 {
+        font-size: 2.7rem;
+    }
+
+    #secao-tres p {
+        font-size: 1.7rem;
+    }
+
+    .container-link {
+        font-size: 15px;
+    }
+
+    .cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-link {
+        width: 25%;
+        margin: 0 auto;
+        margin-top: 120px;
+    }
+
+    .container-link i {
+        color: var(--cor2);
+        width: none;
+    }
+
+    .links-contatos {
+        border-radius: 7px;
+        border: 1px solid black;
+        box-shadow: 5px 4px 3px var(--cor2);
+        height: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 5px;
+    }
+
+    footer p {
+        padding-left: 30px;
+    }
+
+}
+
 @media (max-width: 375px) {
 
     li {
@@ -636,131 +765,3 @@
 
 }
 
-
-@media (min-width: 280) and (max-width: 375px) {
-
-    li {
-        color: var(--cor2);
-        font-size: 17px;
-    }
-
-    .container-colunas {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-    }
-
-    #welcome-section {
-        height: 100vh;
-        background-color: white;
-        margin-bottom: 6rem;
-    }
-
-    .meuNome {
-        width: 100%;
-        padding-left: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .meuNome h1 {
-        width: 100%;
-        font-weight: bold;
-        font-size: 3.5rem;
-        line-height: 3.5rem;
-        text-align: center;
-    }
-
-    .meuNome p {
-        font-size: 1.5rem;
-        white-space: nowrap;
-        color: black;
-        font-weight: 600;
-        letter-spacing: -1px;
-        display: flex;
-    }
-
-    #img-um {
-        display: none;
-    }
-
-    #img-dois {
-        display: none;
-    }
-
-    /* ================================================= */
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .project-image {
-        width: 280px;
-    }
-
-    #projects h2 {
-        border-bottom: none;
-        font-size: 15px;
-        text-align: center;
-        line-height: 15px;
-        color: black;
-    }
-
-    .descrição {
-        font-size: 5rem;
-    }
-
-    .div-retangulo {
-        height: 2.5rem;
-    }
-
-  /* ================================================= */
-
-    #secao-tres h2 {
-        font-size: 2.7rem;
-    }
-
-    #secao-tres p {
-        font-size: 1.7rem;
-    }
-
-    .container-link {
-        font-size: 15px;
-    }
-
-    .cont {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container-link {
-        width: 25%;
-        margin: 0 auto;
-        margin-top: 120px;
-    }
-
-    .container-link i {
-        color: var(--cor2);
-        width: none;
-    }
-
-    .links-contatos {
-        border-radius: 7px;
-        border: 1px solid black;
-        box-shadow: 5px 4px 3px var(--cor2);
-        height: 30px;
-        text-align: center;
-        margin-bottom: 20px;
-        padding-top: 5px;
-    }
-
-    footer p {
-        padding-left: 30px;
-    }
-
-}
