@@ -1,128 +1,4 @@
-@media (max-width: 720px) {
 
-    li {
-        color: var(--cor2);
-    }
-
-    #welcome-section {
-        height: 100vh;
-        background-color: white;
-        margin-bottom: 6rem;
-    }
-    
-    .meuNome {
-        width: 100%;
-        padding-left: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .meuNome h1 {
-        width: 100%;
-        font-weight: bold;
-        font-size: 7rem;
-        line-height: 6rem;
-        text-align: center;
-    }
-
-    .meuNome p {
-        font-size: 3rem;
-        white-space: nowrap;
-        color: black;
-        font-weight: 600;
-        letter-spacing: -1px;
-        display: flex;
-    }
-
-    #img-um {
-        display: none;
-    }
-
-    #img-dois {
-        display: none;
-    }
-
-    /* ================================================= */
-
-
-    #projects h2 {
-        border-bottom: none;
-        font-size: 2rem;
-        text-align: center;
-        line-height: 30px;
-        color: black;
-    }
-
-    .descrição {
-        font-size: 5rem;
-    }
-
-    .div-retangulo {
-        height: 3rem;
-    }
-
-    /* ================================================= */
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .container-colunas {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-    }
-
-    /* ========================================================== */
-    #secao-tres h2 {
-        font-size: 4rem;
-    }
-
-    #secao-tres p {
-        font-size: 2.2rem;
-    }
-
-    .cont {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container-link {
-        font-size: 15px;
-    }
-
-
-    .container-link {
-        width: 25%;
-        margin: 0 auto;
-        margin-top: 120px;
-    }
-
-    .container-link i {
-        color: var(--cor2);
-        width: none;
-    }
-
-    .links-contatos {
-        border-radius: 7px;
-        border: 1px solid black;
-        box-shadow: 5px 4px 3px var(--cor2);
-        height: 30px;
-        text-align: center;
-        margin-bottom: 20px;
-        padding-top: 5px;
-    }
-
-    footer p {
-        padding-left: 30px;
-    }
-
-}
 @media (max-width: 375px) {
 
     li {
@@ -495,6 +371,132 @@
 
 }
 
+
+@media (max-width: 720px) {
+
+    li {
+        color: var(--cor2);
+    }
+
+    .container-colunas {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    #welcome-section {
+        height: 100vh;
+        background-color: white;
+        margin-bottom: 6rem;
+    }
+    
+    .meuNome {
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .meuNome h1 {
+        width: 100%;
+        font-weight: bold;
+        font-size: 7rem;
+        line-height: 6rem;
+        text-align: center;
+    }
+
+    .meuNome p {
+        font-size: 3rem;
+        white-space: nowrap;
+        color: black;
+        font-weight: 600;
+        letter-spacing: -1px;
+        display: flex;
+    }
+
+    #img-um {
+        display: none;
+    }
+
+    #img-dois {
+        display: none;
+    }
+
+    /* ================================================= */
+
+
+    #projects h2 {
+        border-bottom: none;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 30px;
+        color: black;
+    }
+
+    .descrição {
+        font-size: 5rem;
+    }
+
+    .div-retangulo {
+        height: 3rem;
+    }
+
+    /* ================================================= */
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* ========================================================== */
+    #secao-tres h2 {
+        font-size: 4rem;
+    }
+
+    #secao-tres p {
+        font-size: 2.2rem;
+    }
+
+    .cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-link {
+        font-size: 15px;
+    }
+
+
+    .container-link {
+        width: 25%;
+        margin: 0 auto;
+        margin-top: 120px;
+    }
+
+    .container-link i {
+        color: var(--cor2);
+        width: none;
+    }
+
+    .links-contatos {
+        border-radius: 7px;
+        border: 1px solid black;
+        box-shadow: 5px 4px 3px var(--cor2);
+        height: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 5px;
+    }
+
+    footer p {
+        padding-left: 30px;
+    }
+
+}
 @media (min-width: 768px) and (max-width: 820px) {
     .projects-grid {
         grid-template-columns: 1fr;
