@@ -1,4 +1,3 @@
-
 @media (max-width: 375px) {
 
     li {
@@ -122,10 +121,6 @@
 
 }
 @media (max-width: 414px) {
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
     .nav {
         display: flex;
         position: fixed;
@@ -135,27 +130,18 @@
         color: var(--cor2);
         font-size: 2.5rem;
     }
-
-    #img-um {
-        display: none;
-    }
-
-    #img-dois {
-        display: none;
-    }
-
-    #welcome-section {
-        height: 80vh;
-        background-color: white;
-        margin-bottom: 6rem;
-    }
-
     .container-colunas {
         width: 100%;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: start;
+    }
+
+    #welcome-section {
+        height: 80vh;
+        background-color: white;
+        margin-bottom: 6rem;
     }
 
     .meuNome {
@@ -186,12 +172,37 @@
         display: flex;
     }
 
-    .project-image {
-        width: 380px;
+    #img-um {
+        display: none;
+    }
+
+    #img-dois {
+        display: none;
     }
 
     /* ================================================= */
 
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-image {
+        width: 380px;
+    }
+
+    #projects h2 {
+        border-bottom: none;
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+        color: black;
+        font-weight: 800;
+    }
+
+    .div-retangulo {
+        height: 3rem;
+    }
+    /* ================================================= */
 
     #secao-tres h2 {
         font-size: 3.7rem;
@@ -208,23 +219,6 @@
     .cont {
         display: flex;
         flex-direction: column;
-    }
-
-    #projects h2 {
-        border-bottom: none;
-        font-size: 18px;
-        text-align: center;
-        line-height: 30px;
-        color: black;
-        font-weight: 800;
-    }
-
-    .div-retangulo {
-        height: 3rem;
-    }
-
-    footer p {
-        padding-left: 30px;
     }
 
     .container-link {
@@ -246,6 +240,11 @@
         text-align: center;
         margin-bottom: 20px;
         padding-top: 5px;
+    }
+
+    
+    footer p {
+        padding-left: 30px;
     }
 
 }
