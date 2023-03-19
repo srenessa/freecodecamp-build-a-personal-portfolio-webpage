@@ -135,6 +135,14 @@
         margin-bottom: 6rem;
     }
 
+    .container-colunas {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
     #img-um {
         display: none;
     }
@@ -190,14 +198,6 @@
 
     .div-retangulo {
         height: 3rem;
-    }
-
-    .container-colunas {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: start;
     }
 
   /* ================================================= */
