@@ -520,7 +520,7 @@
         align-items: center;
         justify-content: start;
     }
-    
+
     #welcome-section {
         height: 80vh;
         background-color: white;
@@ -568,6 +568,23 @@
         grid-template-columns: 1fr;
     }
 
+    #projects h2 {
+        border-bottom: none;
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+        color: black;
+        font-weight: 600;
+    }
+
+    .div-retangulo p {
+        font-size: 2.5rem;
+    }
+
+    .div-retangulo {
+        height: 4rem;
+    }
+
     /* ================================================= */
 
 
@@ -589,29 +606,6 @@
         flex-direction: column;
     }
 
-    #projects h2 {
-        border-bottom: none;
-        font-size: 30px;
-        text-align: center;
-        line-height: 30px;
-        color: black;
-        font-weight: 600;
-    }
-
-    .div-retangulo p {
-        font-size: 2.5rem;
-    }
-
-    .div-retangulo {
-        height: 4rem;
-    }
-
-    footer p {
-        padding-left: 30px;
-        height: 6.5rem;
-        font-size: 2rem;
-    }
-
     .container-link {
         width: 25%;
         margin: 0 auto;
@@ -631,6 +625,12 @@
         text-align: center;
         margin-bottom: 25px;
         padding-top: 5px;
+        font-size: 2rem;
+    }
+
+    footer p {
+        padding-left: 30px;
+        height: 6.5rem;
         font-size: 2rem;
     }
 
