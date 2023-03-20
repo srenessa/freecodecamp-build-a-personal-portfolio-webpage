@@ -1,7 +1,6 @@
-
 @media (min-width: 280) and (max-width: 375px) {
 
-     /* Seção-um */
+    /* Seção-um */
 
     li {
         color: var(--cor2);
@@ -84,8 +83,8 @@
         height: 2.5rem;
     }
 
-  /* ================================================= */
-  /* Seção-três */
+    /* ================================================= */
+    /* Seção-três */
 
     #secao-tres h2 {
         font-size: 2.7rem;
@@ -132,6 +131,8 @@
 }
 
 @media (max-width: 375px) {
+
+    /* Seção-um */
 
     li {
         color: var(--cor2);
@@ -187,6 +188,7 @@
     }
 
     /* ================================================= */
+    /* Seção-dois */
 
     .projects-grid {
         grid-template-columns: 1fr;
@@ -209,6 +211,7 @@
     }
 
     /* ================================================= */
+    /* Seção-três */
 
     #secao-tres h2 {
         font-size: 4rem;
@@ -768,4 +771,3 @@
     }
 
 }
-
