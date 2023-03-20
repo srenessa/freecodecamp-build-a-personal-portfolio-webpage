@@ -258,6 +258,9 @@
 }
 
 @media (max-width: 414px) {
+
+    /* Seção-um */
+
     .nav {
         display: flex;
         position: fixed;
@@ -319,6 +322,7 @@
     }
 
     /* ================================================= */
+    /* Seção-dois */
 
     #projects h2 {
         border-bottom: none;
@@ -342,6 +346,7 @@
     }
 
     /* ================================================= */
+    /* Seção-três */
 
     #secao-tres h2 {
         font-size: 3.7rem;
