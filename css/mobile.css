@@ -524,6 +524,8 @@
 
 @media (max-width: 720px) {
 
+    /* Seção-um */
+
     li {
         color: var(--cor2);
     }
@@ -578,7 +580,12 @@
     }
 
     /* ================================================= */
+    /* Seção-dois */
 
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 
     #projects h2 {
         border-bottom: none;
@@ -596,13 +603,9 @@
         height: 3rem;
     }
 
-    /* ================================================= */
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
     /* ========================================================== */
+     /* Seção-três */
+    
     #secao-tres h2 {
         font-size: 4rem;
     }
